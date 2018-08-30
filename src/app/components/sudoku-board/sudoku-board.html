@@ -1,0 +1,15 @@
+<table>
+    <tbody>
+        <tr ng-repeat="row in vm.board" class="row">
+            <td class="col-xs-1">
+            </td>
+            <td ng-repeat="column in row" class="col-xs-1 sudoku-element" ng-click="vm.increaseValue(column)">
+                <p ng-if="column.value!==0">
+                    {{column.value}}
+                </p>
+            </td>
+            <td class="col-xs-1">
+            </td>
+        </tr>
+    </tbody>
+</table>

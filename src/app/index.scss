@@ -1,0 +1,46 @@
+$navbar-inverse-link-color: #5AADBB;
+$icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
+// bower:scss
+// endbower
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.thumbnail {
+    height: 200px;
+    img.pull-right {
+        width: 50px;
+    }
+}
+
+p.button-inner {
+    margin: 0;
+}
+
+p.alert-text {
+    color: darkblue;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+div.btn-group {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+button.solve-button {
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    background: linear-gradient(skyblue, white);
+    background-repeat: no-repeat;
+}
+
+// injector
+// endinjector
